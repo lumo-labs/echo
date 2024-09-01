@@ -4,7 +4,8 @@
   "description": "lumo lab's custom stream integration unit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"npx webpack --watch\" \"live-server\""
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/lumo-labs/echo/issues"
   },
-  "homepage": "https://github.com/lumo-labs/echo#readme"
+  "homepage": "https://github.com/lumo-labs/echo#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack-cli": "^5.1.4"
+  }
 }

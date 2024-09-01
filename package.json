@@ -1,0 +1,22 @@
+{
+  "name": "echo",
+  "version": "1.0.0",
+  "description": "lumo lab's custom stream integration unit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumo-labs/echo.git"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "@lumo-labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lumo-labs/echo/issues"
+  },
+  "homepage": "https://github.com/lumo-labs/echo#readme"
+}
